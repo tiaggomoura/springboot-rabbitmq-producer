@@ -5,4 +5,6 @@
     - Acesse pelo seu http://localhost:15672
         - user: guest
         - pass: guest
+- Se precise executar algo no console do RabbitMQ no container basta executar o seguinte comando para habilitá-lo:
+    - sudo docker exec -it rabbtitmq bash
 
