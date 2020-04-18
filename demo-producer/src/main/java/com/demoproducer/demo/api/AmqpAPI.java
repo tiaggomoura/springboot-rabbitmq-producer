@@ -19,6 +19,7 @@ public class AmqpAPI {
 	@ResponseStatus(HttpStatus.ACCEPTED)
 	@PostMapping("/send")
 	public void sendToConsumer(@RequestBody MessageDTO message) {
+		
 		this.service.sendToConsumer(message);
 	}
 
